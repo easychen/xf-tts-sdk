@@ -1,0 +1,8 @@
+version: "3"
+services:
+  swoole:
+    image: swoft/alphp:fpm
+    ports:
+      - 82:80 
+    volumes:
+      - ./php:/app 
