@@ -13,7 +13,7 @@
 
 见 php/demo.php
 
-- get_xf_wss_url 
+- get_xf_wss_info 
 - text2sendjson
 
 ## Nodejs 版
