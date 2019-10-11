@@ -15,10 +15,9 @@ go(function () use ($info) {
     $websocket->push(text2sendjson("测试音频"));
     $data = $websocket->recv();
     if (strlen($data) > 1000) {
-        // websocket_client 或者 swoole 实现有问题，返回数据多了几个字节
-        // 导致 decode 不能成功
         $data_array = json_decode($data);
         print_r($data_array);
+        //可以写入文件
         //file_put_contents( $file , $data );
     } else {
         echo $data;
