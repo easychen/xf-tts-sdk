@@ -1,0 +1,21 @@
+{
+    "name": "shenzhe/xf-tts-sdk",
+    "description": "xf-tts-sdk",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "shenzhe",
+            "email": "shenzhe163@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=7.2",
+        "ext-swoole": ">=4.4.0",
+        "swlib/saber": "*"
+    },
+    "autoload": {
+        "files": ["functions.php"]
+    },
+    "minimum-stability": "dev"
+}
