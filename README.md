@@ -11,7 +11,7 @@
 
 ## PHP 版
 
-见 php/demo.php
+见 php/demo2.php
 
 - get_xf_wss_info 
 - text2sendjson
