@@ -11,10 +11,15 @@
 
 ## PHP 版
 
-见 php/demo2.php
+见 php/demo.php
 
 - get_xf_wss_info 
 - text2sendjson
+
+注意：
+- 需要安装 swoole 扩展 4.4+
+- 需要 `composer install` 后在运行 `php demo.php`
+
 
 ## Nodejs 版
 
